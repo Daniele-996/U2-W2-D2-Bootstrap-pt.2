@@ -29,24 +29,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Offers</a>
+              <a class="nav-link active" aria-current="page" href="#Offers">Offers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Welcome Summer</a>
+              <a class="nav-link active" aria-current="page" href="#Welcome Summer">Welcome Summer</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Last Minute</a>
+              <a class="nav-link active" aria-current="page" href="#Last Minute">Last Minute</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Recensioni</a>
+              <a class="nav-link active" aria-current="page" href="#Recensioni">Recensioni</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Book your Dream" aria-label="Search" />
-            <button class="btn btn-outline-dark" type="submit">Go!!</button>
+            <button id="PrenotaOra" class="btn btn-outline-dark" type="submit" href="#">Go!!</button>
           </form>
         </div>
       </div>
@@ -58,8 +58,10 @@
         <div class="row">
           <div class="col-8 m-auto">
             <section class="rounded-start-2 rounded-end-2 px-5 py-5 border border-dark">
-              Benvenuto nel nostro sito!! DS Travel Agency è a tua completa disposizione nel trovare la <br />soluzione migliore su misura per TE! Immagina la
-              tua vacanza dei sogni.. noi la trasformeremo in realtà<br />
+              <h3>
+                Benvenuto nel nostro sito!! DS Travel Agency è a tua completa disposizione <br />nel trovare la soluzione migliore su misura per TE! Immagina la
+                tua vacanza dei sogni.. noi la trasformeremo in realtà<br />
+              </h3>
               <button class="bg-danger text-white fw-bold" type="submit" href="https://www.google.com/travel/flights?gl=IT&hl=it">
                 PRONTO A PARTIRE?! <br />
                 Click ME!!
@@ -70,48 +72,48 @@
       </div>
       <div class="container-fluid bg-danger-subtle text-start">
         <div class="row">
-          <h2>Offers</h2>
-          <div class="col-6 col-md-4 col-xl-3 h-100">
+          <h2 id="Offers" class="p-3">Offers</h2>
+          <div class="col-6 col-md-4 col-xl-3 h-100 p-3">
             <div class="card">
               <img src="./img/sanpietroburgo.png" class="card-img-top" alt="sanpietroburgo" style="height: 300px; object-fit: cover" />
               <div class="card-body">
                 <h4>San Pietroburgo</h4>
                 <h3>Visita ora e non perdere le offerte!</h3>
                 <p class="card-text">Prenota ora il tuo viaggio!!</p>
-                <a href="#" class="btn btn-danger">GO</a>
+                <a href="#PrenotaOra" class="btn btn-danger">GO</a>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-4 col-xl-3 h-100">
+          <div class="col-6 col-md-4 col-xl-3 h-100 p-3">
             <div class="card">
               <img src="./img/casablanca.png" class="card-img-top" alt="casablanca" style="height: 300px; object-fit: cover" />
               <div class="card-body">
                 <h4>Casablanca</h4>
                 <h3>Visita ora e non perdere le offerte!</h3>
                 <p class="card-text">Prenota ora il tuo viaggio!!</p>
-                <a href="#" class="btn btn-danger">GO</a>
+                <a href="#PrenotaOra" class="btn btn-danger">GO</a>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-4 col-xl-3 h-100">
+          <div class="col-6 col-md-4 col-xl-3 h-100 p-3">
             <div class="card">
               <img src="./img/lasvegas.png" class="card-img-top" alt="lasvegas" style="height: 300px; object-fit: cover" />
               <div class="card-body">
                 <h4>Las Vegas</h4>
                 <h3>Visita ora e non perdere le offerte!</h3>
                 <p class="card-text">Prenota ora il tuo viaggio!!</p>
-                <a href="#" class="btn btn-danger">GO</a>
+                <a href="#PrenotaOra" class="btn btn-danger">GO</a>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-4 d-md-none d-xl-block col-xl-3 h-100">
+          <div class="col-6 col-md-4 d-md-none d-xl-block col-xl-3 h-100 p-3">
             <div class="card">
               <img src="./img/roma.png" class="card-img-top" alt="roma" style="height: 300px; object-fit: cover" />
               <div class="card-body">
                 <h4>Roma</h4>
                 <h3>Visita ora e non perdere le offerte!</h3>
                 <p class="card-text">Prenota ora il tuo viaggio!!</p>
-                <a href="#" class="btn btn-danger">GO</a>
+                <a href="#PrenotaOra" class="btn btn-danger">GO</a>
               </div>
             </div>
           </div>
@@ -120,72 +122,86 @@
 
       <div class="container-fluid bg-danger-subtle text-start">
         <div class="row">
-          <h2>Welcome Summer</h2>
-          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100">
+          <h2 id="Welcome Summer" class="p-3">Welcome Summer</h2>
+          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100 p-3">
             <div class="card">
               <img src="./img/santorini.png" class="card-img-top" alt="santorini.png" style="height: 300px; object-fit: cover" />
               <div class="card-body">
                 <h4>Santorini</h4>
                 <h3>Esplora le mete più gettonate per l'estate!</h3>
                 <p class="card-text">Vivi il tuo sogno senza altre attese!!</p>
-                <a href="#" class="btn btn-danger">GO</a>
+                <a href="#PrenotaOra" class="btn btn-danger">GO</a>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100">
+          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100 p-3">
             <div class="card">
               <img src="./img/marsalam.png" class="card-img-top" alt="marsalam.png" style="height: 300px; object-fit: cover" />
               <div class="card-body">
                 <h4>Marsa Alam</h4>
                 <h3>Esplora le mete più gettonate per l'estate!</h3>
                 <p class="card-text">Vivi il tuo sogno senza altre attese!!</p>
-                <a href="#" class="btn btn-danger">GO</a>
+                <a href="#PrenotaOra" class="btn btn-danger">GO</a>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100">
+          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100 p-3">
             <div class="card">
               <img src="./img/dubai.png" class="card-img-top" alt="dubai.png" style="height: 300px; object-fit: cover" />
               <div class="card-body">
                 <h4>Dubai</h4>
                 <h3>Esplora le mete più gettonate per l'estate!</h3>
                 <p class="card-text">Vivi il tuo sogno senza altre attese!!</p>
-                <a href="#" class="btn btn-danger">GO</a>
+                <a href="#PrenotaOra" class="btn btn-danger">GO</a>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100">
+          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100 p-3">
             <div class="card">
               <img src="./img/creta.png" class="card-img-top" alt="creta.png" style="height: 300px; object-fit: cover" />
               <div class="card-body">
                 <h4>Creta</h4>
                 <h3>Esplora le mete più gettonate per l'estate!</h3>
                 <p class="card-text">Vivi il tuo sogno senza altre attese!!</p>
-                <a href="#" class="btn btn-danger">GO</a>
+                <a href="#PrenotaOra" class="btn btn-danger">GO</a>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100">
+          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100 p-3">
             <div class="card">
               <img src="./img/singapore.png" class="card-img-top" alt="singapore" style="height: 300px; object-fit: cover" />
               <div class="card-body">
                 <h4>Singapore</h4>
                 <h3>Esplora le mete più gettonate per l'estate!</h3>
                 <p class="card-text">Vivi il tuo sogno senza altre attese!!</p>
-                <a href="#" class="btn btn-danger">GO</a>
+                <a href="#PrenotaOra" class="btn btn-danger">GO</a>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100">
+          <div class="col-6 col-md-6 col-xl-4 col-xxl-2 h-100 p-3">
             <div class="card">
               <img src="./img/maldive.png" class="card-img-top" alt="maldive.png" style="height: 300px; object-fit: cover" />
               <div class="card-body">
                 <h4>Maldive</h4>
                 <h3>Esplora le mete più gettonate per l'estate!</h3>
                 <p class="card-text">Vivi il tuo sogno senza altre attese!!</p>
-                <a href="#" class="btn btn-danger">GO</a>
+                <a href="#PrenotaOra" class="btn btn-danger">GO</a>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid bg-danger-subtle text-start">
+        <div class="row">
+          <h2>Offerta del giorno</h2>
+          <div class="col-8 col-md-9 col-xl-9 h-100">
+            <img src="./img/honduras.png" alt="honduras.png" style="height: auto; width: 100%; object-fit: cover" />
+          </div>
+          <div class="col-4 col-md-3 col-xl-3 h-100 width: 100%">
+            <h2>Last ticket available to Honduras<span class="badge text-bg-warning">Best Offer</span></h2>
+            <h4>Dal 01/08/2025 al 19/08/2025</h4>
+            <h3>Prezzo Promo 2989,00€ per person!!</h3>
           </div>
         </div>
       </div>
